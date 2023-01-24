@@ -1,0 +1,12 @@
+@import url(base/_mixins.scss);
+@import url(base/_variables.scss);
+
+
+* {
+  font-family: "MuseoModerno", cursive;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import url(blocks/_promo.scss);
