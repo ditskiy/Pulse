@@ -1,0 +1,28 @@
+@media (max-width: 1024px) {
+  .promo {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .promo {
+    &__icons {
+      width: 100%;
+    }
+    &__header {
+      font-size: 28px;
+    }
+    &__subheader {
+      font-size: 14px;
+    }
+  }
+
+  .header {
+    flex-direction: column;
+  }
+  .benefits {
+    &__icons {
+      flex-direction: column;
+    }
+  }
+}
