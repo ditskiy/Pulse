@@ -3,6 +3,10 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+  .prev,
+  .next {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .promo {
