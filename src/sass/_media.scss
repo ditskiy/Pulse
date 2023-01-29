@@ -20,6 +20,10 @@
       font-size: 14px;
     }
   }
+  .other-item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .header {
     flex-direction: column;

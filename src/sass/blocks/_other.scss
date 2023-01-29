@@ -1,0 +1,39 @@
+.other {
+  height: 968px;
+  padding-bottom: 48px;
+  &__content {
+    margin-top: 60px;
+  }
+  &-item {
+    display: flex;
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__photo {
+      width: 169px;
+      height: 169px;
+      border-radius: 50%;
+      margin-right: 61px;
+    }
+    &__name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      color: #0d0d0d;
+    }
+    &__progress {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #646464;
+    }
+    &__other {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0d0d0d;
+      margin-top: 10px;
+    }
+  }
+}
