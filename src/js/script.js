@@ -98,4 +98,32 @@ document.querySelector(".next").onclick = function () {
       });
     });
   });
+
+  
+
+  function valideForms(form){
+    $(form).validate({
+      rules: {
+        name: "required",
+        phone: "required",
+        email: {
+          required: true,
+          email: true
+        }
+      },
+      messages: {
+        name: "Пожалуйста, введите свое имя",
+        phone: "Пожалуйста, введите свой номер телефона",
+        email: {
+          required: "Пожалуйста, введите свой email",
+          email: "Неправильно введен email"
+        }
+      }
+    });
+  };
+  valideForms('#consultation form');
+  valideForms('#order form');
+  valideForms('#consultation-form');
+
+  $('input[name=phone]').mask("+38(099) 999-99-99");
 })(jQuery);
