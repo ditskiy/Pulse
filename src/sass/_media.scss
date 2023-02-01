@@ -33,4 +33,19 @@
       flex-direction: column;
     }
   }
+  .footer {
+    &__content {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    &__content {
+      width: 100%;
+    }
+  }
+  .catalog-item {
+    height: auto;
+  }
 }

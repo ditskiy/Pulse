@@ -124,4 +124,6 @@ document.querySelector(".next").onclick = function () {
   valideForms("#consultation-form");
 
   $("input[name=phone]").mask("+38(099) 999-99-99");
+
+  new WOW().init();
 })(jQuery);
