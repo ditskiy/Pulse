@@ -38,6 +38,12 @@
       width: 100%;
     }
   }
+  .modal {
+    width: 75%;
+  }
+  .feed-form {
+    width: auto;
+  }
 }
 @media (max-width: 320px) {
   .footer {
@@ -47,5 +53,11 @@
   }
   .catalog-item {
     height: auto;
+  }
+  .modal {
+    width: 75%;
+  }
+  .feed-form {
+    width: auto;
   }
 }
